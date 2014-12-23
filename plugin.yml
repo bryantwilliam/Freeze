@@ -1,0 +1,16 @@
+name: Freeze
+version: 1.0
+main: com.gmail.gogobebe2.freeze.Freeze
+description: Freeze players.
+ 
+commands:
+    freeze:
+        usage: /<command>
+        description: Freeze or Unfreeze players.
+       
+permissions:
+    freeze.use:
+        description: Is allowed to feeze other players
+        default: op
+
+    
